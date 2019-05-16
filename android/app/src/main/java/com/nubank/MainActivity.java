@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
     */
   @Override
   protected String getMainComponentName() {
-      return "nubank";
+    return "nubank";
   }
 
   @Override
@@ -22,6 +22,6 @@ public class MainActivity extends ReactActivity {
       protected ReactRootView createRootView() {
         return new RNGestureHandlerEnabledRootView(MainActivity.this);
       }
-    }
+    };
   }
 }
